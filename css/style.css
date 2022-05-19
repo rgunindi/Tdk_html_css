@@ -1,0 +1,276 @@
+body, header, main, section,
+article, div, ul {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*, button, .banner, ul */
+}
+
+body {
+    font-family: 'Helvetica', 'Cantarell', serif ;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+article{
+    border-radius: 5px;
+}
+.search-form a {
+    margin-left: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    width: 12%;
+
+}
+
+input, input ~ a, ul {
+    border: none;
+    color: #111111;
+    list-style-type: none;
+}
+
+input ~ a {
+    text-align: center;
+}
+
+input {
+    padding: 20px;
+    width: 85%;
+    border-right: #333 solid 1px;
+}
+
+.banner {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/banner_1.jpeg");
+    display: block;
+}
+
+.search {
+    background-color: #333;
+}
+
+.search-form {
+    border: 15px #333 solid;
+    background-color: white;
+}
+
+button {
+    background-color: #34B92C;
+    height: 100%;
+    width: 5%;
+    border: none;
+}
+
+li > button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.search > ul {
+    margin: 0 0 20px 12px;
+}
+
+li {
+    padding: 3px;
+}
+
+section {
+    box-sizing: border-box;
+}
+
+article {
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 20%),
+    0 1px 1px 0 rgb(0 0 0 / 19%);
+    background-color: whitesmoke;
+    margin: 5px;
+    text-align: center;
+}
+
+article > div > p {
+    text-align: justify;
+    margin: 0 10% 0 10%;
+    font-size: 1.2em;
+}
+
+article > div > h3 {
+    color: red;
+}
+
+article > div > h4 {
+    color: orange;
+}
+
+article h4 {
+    font-size: 1.1em;
+}
+
+table {
+    border-bottom: 1px solid gray;
+    text-align: start;
+    font-size: 1.2em;
+}
+
+td {
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    padding: 13px;
+}
+
+td:nth-child(1) {
+    border-bottom: none;
+}
+
+article a {
+    color: #2cc3bd;
+}
+
+.card1, .card2, .card3, .card4 {
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+}
+
+.card1 h3, .card2 h3, .card3 h3, .card4 h3 {
+    color: #2cc3bd;
+    font-size: 1.4em;
+    font-weight: normal;
+}
+
+.card1 h4, .card2 h4, .card3 h4, .card4 h4 {
+    margin-top: 5px;
+    color: brown;
+    font-size: 1.3em;
+    font-weight: normal;
+}
+.card1 h3 {
+    padding-top: 20px;
+}
+
+.card2 h3 > img {
+    width: 25px;
+}
+
+.card3 p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1em;
+}
+.card3 td, .card3 table {
+    border: none;
+}
+
+.card3 table {
+    width: 100%
+}
+
+.card3 td {
+    border-top: 1px gray solid;
+}
+.card3 tr:nth-child(2) > td:nth-child(1),
+.card3 tr:nth-child(4) > td:nth-child(1) {
+    border-top: none;
+}
+.card1 a {
+    color: #428bca;
+    cursor: pointer;
+    text-decoration: none;
+}
+.card4 p {
+font-size: 17px;
+line-height: 18px;
+padding: 25px;
+text-align: center;
+}
+
+.card4 a {
+    color: #428bca;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+}
+.card1--img {
+    background-image: url("../img/bir_kural1.jpeg");
+background-repeat: no-repeat;
+    background-size: contain;
+    height: 252px;
+}
+
+.card2--img {
+    background-image: url("../img/sks1.jpg");
+background-repeat: no-repeat;
+    background-size: contain;
+    height: 252px;
+}
+
+.card3--img {
+    background-image: url("../img/syyd1.jpeg");
+background-repeat: no-repeat;
+    background-size: contain;
+    height: 252px;
+}
+
+.card4--img {
+    background-image: url("../img/yabanci_sozlere_karsiliklar_oner.jpeg");
+background-repeat: no-repeat;
+    background-size: contain;
+    height: 252px;
+}
+
+.footer--one {
+    height: 8vh;
+    background-color: #333;
+    margin-bottom: 1px;
+}
+.footer--one,.footer--two,.footer--three{
+    width: 100%;
+}
+.footer--two {
+    height: 30vh;
+    background-color: #333;
+}
+.footer-info a{
+    color: #428bca;
+    text-decoration: none;
+}
+.footer--three {
+    height: 6vh;
+    background-color: #fff;
+    text-align: center;
+}
+.footer--one a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.footer-contact{
+    color:whitesmoke;
+}
+.footer-info{
+    color: whitesmoke;
+}
+.footer-contact-app{
+    color: whitesmoke;
+    text-align: center;
+}
+.appstore,.playstore {
+    border: 1px white solid;
+    width: 150px;
+    padding: 20px;
+}
+
