@@ -11,6 +11,7 @@ header{
     align-items: center;
     padding-top: 50px;
     position: relative;
+    top: 70px;
 }
 .banner-img-logo{
     width: 100%;
@@ -37,7 +38,7 @@ main{
     display: flex;
     flex-flow: column;
     width: 70%;
-    margin: 155px auto;
+    margin: 220px auto;
 }
 section{
     display: flex;
