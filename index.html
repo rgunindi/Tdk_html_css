@@ -7,9 +7,13 @@
           href="css/style.css">
     <link rel="stylesheet"
           href="css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet"
-          href="css/mq-900.css" media="(max-width:900px)">
+          href="css/mq-900.css"
+          media="(max-width:900px)">
+    <link rel="stylesheet"
+          href="css/fontawesome/css/all.css">
 </head>
 <body>
 <header>
@@ -33,16 +37,27 @@
                  alt="yuzuncuYil">
         </a>
     </div>
+    <svg>
+        <polyline points="70 10 80 0 90 10"
+                  stroke="black"
+                  stroke-width="5"
+                  stroke-linecap="round"
+                  fill="none"
+                  stroke-linejoin="round"/>
 
+    </svg>
     <div class="search">
         <div class="search-form">
             <input type="search"
                    name="search"
                    id="s"
                    placeholder="Güncel Türkçe Sözlük'te Ara ">
-            <a href="#">&#9;Sözlük Seç&#9;&#748;</a>
-            <button>&#128269;</button>
 
+            <a href="#">Sözlük Seç&#9;&#748;
+            </a>
+
+            <button class="fa-solid fa-magnifying-glass fa-lg"></button>
+            <!--    &#128269; fa-2x fa-3x-->
         </div>
         <ul>
             <li>
@@ -229,7 +244,9 @@
     </div>
 
     <div class="footer--three">
-        <div class="text-copyright text-center"> © 2019 - <a href="http://www.tdk.gov.tr" target="_blank">TDK</a>  Tüm hakları saklıdır. </div>
+        <div class="text-copyright text-center"> © 2019 - <a href="http://www.tdk.gov.tr"
+                                                             target="_blank">TDK</a> Tüm hakları saklıdır.
+        </div>
     </div>
 
 </footer>

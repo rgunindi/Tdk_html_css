@@ -55,4 +55,7 @@ main {
     margin-left:20%;
 }
 
-
+li > button {
+    width: 25px;
+    height: 25px;
+}

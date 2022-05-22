@@ -73,6 +73,7 @@ button {
     height: 100%;
     width: 5%;
     border: none;
+    cursor:pointer;
 }
 
 li > button {
